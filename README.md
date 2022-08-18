@@ -9,32 +9,39 @@ By a truly unbelievable coincidence, I was recently out for a walk when I saw a 
 
 <sup>*this is a joke Tiyuri, please don't send Saul Goodman to my house.*</sup>
 ## Features
+**Type /guide in-game to learn how to use these.**
 
-### • Character Swapper
+<details>
+<summary><b>Character Swapper</b></summary>
+
 Swap with your other selves. The ship of the character you joined as stays, and will save to the original character's ship file.
 
 Swapping immediately saves the previous character. Ship upgrades for a visiting character will not be applied until you join as that character.
 
 ![swapper](https://user-images.githubusercontent.com/80987908/185360435-b03d31ec-74cf-4499-9820-09f28cfdc835.gif)
 
-### • Character Editor
+</details>
+
+<details>
+<summary><b>Character Editor</b></summary>
+
 Repurposes Starbound's character creation pane as an in-game editor, so you can edit your appearance live.
 
 ![editor](https://user-images.githubusercontent.com/80987908/185359481-3a46fb16-fee0-4ee3-90bd-26f668215596.gif)
 
-### • Identity Modification
+</details>
+
+<details>
+<summary><b>Identity Modification</b></summary>
+
 For more advanced character editing, you can use the new identity commands to directly modify your character's identity.
 
 ![identity_mod](https://user-images.githubusercontent.com/80987908/185365614-1eb5c6b3-a115-436e-847e-4047c682a0f3.gif)
 
-### • Better Tech Scaling
-Beautifies tech scaling by changing how it's rendered to scale the drawables instead of the sprites. Works with any scaling tech!
+</details>
 
-This also fixes various offset issues with scaling, such as your head detaching when you crouch.
-
-![image](https://user-images.githubusercontent.com/80987908/185363859-8afecdaf-80cd-45b4-a92a-9b41330b7bd7.png)
-
-### • Chat Opacity & Directives
+<details>
+<summary><b>Chat Opacity & Directives</b></summary>
 
 You can now set the opacity of chat text, which was originally a hardcoded 50%.
 
@@ -42,7 +49,36 @@ You can now apply processing directives to the chat font, the default is `?borde
 
 ![chat](https://user-images.githubusercontent.com/80987908/185368435-d694a2fc-e76c-4b70-aa63-77fbb6bbac5e.gif)
 
-**Type /guide in-game to learn how to use these.**
+</details>
+
+<details>
+<summary><b>Night Vision</b></summary>
+
+Makes the dark.. not so dark.
+
+![nv](https://user-images.githubusercontent.com/80987908/185371133-766de8e7-05c2-4f7b-9e21-0687afd89fe0.gif)
+
+</details>
+
+
+<details>
+<summary><b>Better Tech Scaling</b></summary>
+
+Beautifies tech scaling by changing how it's rendered to scale the drawables instead of the sprites. Works with any scaling tech!
+
+This also fixes various offset issues with scaling, such as your head detaching when you crouch.
+
+![image](https://user-images.githubusercontent.com/80987908/185363859-8afecdaf-80cd-45b4-a92a-9b41330b7bd7.png)
+
+</details>
+
+
+<details>
+<summary><b>Generated Clothes Baker</b></summary>
+  
+Internally bakes the extremely long directives of [generated clothes](https://silverfeelin.github.io/Starbound-NgOutfitGenerator/) to a spritesheet, so they no longer destroy performance.
+
+</details>
 
 ## Fixes
 
