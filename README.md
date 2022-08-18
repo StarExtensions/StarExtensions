@@ -42,6 +42,16 @@ For more advanced character editing, you can use the new identity commands to di
 </details>
 
 <details>
+<summary><b>Breathing & Head Rotation</b></summary>
+  
+Players and NPCs now breathe, and player heads rotate when sitting, dancing or holding an item. Both are togglable.
+  
+![breathing](https://user-images.githubusercontent.com/80987908/185374557-b0eb1165-42f9-4115-86d9-6680060c65a6.gif)
+![aiming](https://user-images.githubusercontent.com/80987908/185373968-1dc89371-f43a-4171-a493-c81a65dc37c9.gif)
+  
+</details>
+
+<details>
 <summary><b>Chat Opacity & Directives</b></summary>
 
 You can now set the opacity of chat text, which was originally a hardcoded 50%.
