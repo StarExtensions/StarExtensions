@@ -1,7 +1,6 @@
 # *StarExtensions*
 ### QoL enhancement mod written in C++ for Starbound.
 
-</p>
 ## Origin
 
 By a truly unbelievable coincidence, I was recently out for a walk when I saw a small package fall off a truck ahead of me.  As I got closer, the typeface slowly came into focus: **Starbound**. Inside, I found a pack of jammie dodgers, a furry poster (tells you something about their audience I guess!) and the latest version of the **Starbound source code**!!
