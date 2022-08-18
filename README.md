@@ -8,6 +8,10 @@ By a truly unbelievable coincidence, I was recently out for a walk when I saw a 
 ![bag_crop](https://user-images.githubusercontent.com/80987908/185361129-9883fb92-9597-4ba4-b003-4be3dc4971a3.png)
 
 <sup>*this is a joke Tiyuri, please don't send Saul Goodman to my house.*</sup>
+## Installation
+Download the architecture that's right for you and drop both in their corresponding folder in the Starbound directory.
+
+The replacement **SDL2.dll** (mostly) fixes audio being permanently lost when the output device is disconnected, and loads StarExtensions.
 ## Features
 Type `/guide` in-game to learn how to use these.
 
