@@ -1,6 +1,7 @@
 # *StarExtensions*
 ### QoL enhancement mod written in C++ for Starbound.
 
+</p>
 ## Origin
 
 By a truly unbelievable coincidence, I was recently out for a walk when I saw a small package fall off a truck ahead of me.  As I got closer, the typeface slowly came into focus: **Starbound**. Inside, I found a pack of jammie dodgers, a furry poster (tells you something about their audience I guess!) and the latest version of the **Starbound source code**!!
@@ -9,7 +10,7 @@ By a truly unbelievable coincidence, I was recently out for a walk when I saw a 
 
 <sup>*this is a joke Tiyuri, please don't send Saul Goodman to my house.*</sup>
 ## Features
-**Type /guide in-game to learn how to use these.**
+Type `/guide` in-game to learn how to use these.
 
 <details>
 <summary><b>Character Swapper</b></summary>
@@ -89,3 +90,5 @@ Internally bakes the extremely long directives of [generated clothes](https://si
 • Fixed chat color state being lost from text wrapping to the next line.
 
 ![image](https://user-images.githubusercontent.com/80987908/185369315-db8a641c-4e3b-435b-8251-acaaa4715fe6.png)
+
+</p>
