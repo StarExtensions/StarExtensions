@@ -94,6 +94,21 @@ Internally bakes the extremely long directives of [generated clothes](https://si
 
 </details>
 
+<details>
+<summary><b>Tile Prediction</b></summary>
+  
+Placing tiles on servers is now predicted to make building smoother.
+
+</details>
+
+<details>
+<summary><b>Item Protection</b></summary>
+  
+When another player tries to use a Lua script to copy your item, they get a dollar store version with most important parameters removed.
+
+</details>
+
+
 ## Fixes
 
 • Fixed the game crashing when you're disconnected from the server with the inventory open.
@@ -103,5 +118,3 @@ Internally bakes the extremely long directives of [generated clothes](https://si
 • Fixed chat color state being lost from text wrapping to the next line.
 
 ![image](https://user-images.githubusercontent.com/80987908/185369315-db8a641c-4e3b-435b-8251-acaaa4715fe6.png)
-
-</p>
