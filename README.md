@@ -12,6 +12,7 @@ By a truly unbelievable coincidence, I was recently out for a walk when I saw a 
 Download the build that appeals to you the most - your build, the build that was meant for you - and extract it to the folder of the same name in the Starbound directory.
 
 The replacement **SDL2.dll** (mostly) fixes audio being permanently lost when the output device is disconnected, and loads StarExtensions.
+If you appreciate my work, feel free to tip me through the sponsorship link on this page.
 ## Features
 Type `/guide` in-game to learn how to use these.
 
