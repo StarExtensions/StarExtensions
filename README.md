@@ -9,7 +9,7 @@ By a truly unbelievable coincidence, I was recently out for a walk when I saw a 
 
 <sup>*this is a joke Tiyuri, please don't send Saul Goodman to my house.*</sup>
 ## Installation
-Download the architecture that's right for you and extract it to the folder of the same name in the Starbound directory.
+Download the build that appeals to you the most - your build, the build that was meant for you - and extract it to the folder of the same name in the Starbound directory.
 
 The replacement **SDL2.dll** (mostly) fixes audio being permanently lost when the output device is disconnected, and loads StarExtensions.
 ## Features
