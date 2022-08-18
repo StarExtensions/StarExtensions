@@ -18,7 +18,7 @@ Type `/guide` in-game to learn how to use these.
 <details>
 <summary><b>Character Swapper</b></summary>
 
-Swap with your other selves. The ship of the character you joined as stays, and will save to the original character's ship file.
+Swap with your other selves. The ship of the character you joined as stays & saves to the original character's ship file.
 
 Swapping immediately saves the previous character. Ship upgrades for a visiting character will not be applied until you join as that character.
 
