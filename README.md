@@ -32,7 +32,7 @@ Repurposes Starbound's character creation pane as an in-game editor, so you can 
 </details>
 
 <details>
-<summary><b>Identity Modification</b></summary>
+<summary><b>Identity Editor</b></summary>
 
 For more advanced character editing, you can use the new identity commands to directly modify your character's identity.
 
