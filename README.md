@@ -7,7 +7,7 @@ By a truly unbelievable coincidence, I was recently out for a walk when I saw a 
 
 ![bag_crop](https://user-images.githubusercontent.com/80987908/185361129-9883fb92-9597-4ba4-b003-4be3dc4971a3.png)
 
-<sup>*this is a joke Tiyuri, please don't send Saul Goodman to my house.*</sup>
+<sup>*disclaimer: this is a joke Tiyuri - please don't call Saul*</sup>
 ## Installation
 Download the build that appeals to you the most - your build, the build that was meant for you - and extract it to the folder of the same name in the Starbound directory.
 
@@ -111,6 +111,8 @@ When another player tries to use a Lua script to copy your item, they get a doll
 
 
 ## Fixes
+
+• Fixed being unable to hear another player's song if you load them after they begin playing.
 
 • Fixed the game crashing when you're disconnected from the server with the inventory open.
 
