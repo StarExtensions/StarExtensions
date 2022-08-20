@@ -1,6 +1,12 @@
 # *StarExtensions*
 ### QoL enhancement mod written in C++ for Starbound.
 
+## Installation
+Download the build that appeals to you the most - your build, the build that was meant for you - and extract it to the folder of the same name in the Starbound directory.
+
+The replacement **SDL2.dll** (mostly) fixes audio being permanently lost when the output device is disconnected, and loads StarExtensions.
+### If you appreciate my work, feel free to tip me through the sponsorship link on this page.
+
 ## Origin
 
 By a truly unbelievable coincidence, I was recently out for a walk when I saw a small package fall off a truck ahead of me.  As I got closer, the typeface slowly came into focus: **Starbound**. Inside, I found a pack of jammie dodgers, a furry poster (tells you something about their audience I guess!) and the latest version of the **Starbound source code**!!
@@ -8,11 +14,6 @@ By a truly unbelievable coincidence, I was recently out for a walk when I saw a 
 ![bag_crop](https://user-images.githubusercontent.com/80987908/185361129-9883fb92-9597-4ba4-b003-4be3dc4971a3.png)
 
 <sup>*disclaimer: this is a joke Tiyuri - please don't call Saul*</sup>
-## Installation
-Download the build that appeals to you the most - your build, the build that was meant for you - and extract it to the folder of the same name in the Starbound directory.
-
-The replacement **SDL2.dll** (mostly) fixes audio being permanently lost when the output device is disconnected, and loads StarExtensions.
-If you appreciate my work, feel free to tip me through the sponsorship link on this page.
 ## Features
 Type `/guide` in-game to learn how to use these.
 
