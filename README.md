@@ -66,7 +66,7 @@ Players and NPCs now breathe, and player heads rotate when sitting, dancing or h
 
 Chucklefish gave humanoids [a vapor trail](https://playstarbound.com/21st-july-progress/). It's meant to appear when you fall but it seems they had forgotten to actually hook it up, so I did. It also now rotates with your velocity, and fades in.
 
-![vapor](https://user-images.githubusercontent.com/80987908/185783176-77814c90-11bc-4eb3-9bbc-d2110cadb38e.gif)
+![vapor_trail](https://user-images.githubusercontent.com/80987908/185793966-153761ed-14a2-4419-9ba3-fac31644fb61.gif)
 
 </details>
 
