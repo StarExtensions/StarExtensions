@@ -15,7 +15,7 @@ By a truly unbelievable coincidence, I was recently out for a walk when I saw a 
 
 <sup>*disclaimer: this is a joke Tiyuri - please don't call Saul*</sup>
 ## Features
-Type `/guide` in-game to learn how to use these.
+Type **/guide** in-game to learn how to use these.
 
 <details>
 <summary><b>Character Swapper</b></summary>
@@ -47,13 +47,27 @@ For more advanced character editing, you can use the new identity commands to di
 </details>
 
 <details>
-<summary><b>Breathing & Head Rotation</b></summary>
+<summary><b>Player Inspection</b></summary>
+
+Originally present in Starbound's beta, player inspection is back! The **/description** command lets you change your character's description.
+
+![description](https://user-images.githubusercontent.com/80987908/185783346-3383114f-995b-4ab6-bb66-249dc5fce976.gif)
+
+
+</details>
+
+<details>
+<summary><b>Humanoid Breathing, Head Rotation & Vapor Trail</b></summary>
   
 Players and NPCs now breathe, and player heads rotate when sitting, dancing or holding an item. Both are togglable.
   
 ![breathing](https://user-images.githubusercontent.com/80987908/185374557-b0eb1165-42f9-4115-86d9-6680060c65a6.gif)
 ![aiming](https://user-images.githubusercontent.com/80987908/185373968-1dc89371-f43a-4171-a493-c81a65dc37c9.gif)
-  
+
+Chucklefish gave humanoids [a vapor trail](https://playstarbound.com/21st-july-progress/). It's meant to appear when you fall but it seems they had forgotten to actually hook it up, so I did. It also now rotates with your velocity, and fades in.
+
+![vapor](https://user-images.githubusercontent.com/80987908/185783176-77814c90-11bc-4eb3-9bbc-d2110cadb38e.gif)
+
 </details>
 
 <details>
