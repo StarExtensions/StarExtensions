@@ -102,6 +102,86 @@ This also fixes various offset issues with scaling, such as your head detaching 
 
 </details>
 
+<details>
+<summary><b>Chat Emotes</b></summary>
+  
+You can now type emotes! Only StarExtensions users can see emotes.
+
+![RrnSvF](https://user-images.githubusercontent.com/80987908/187029093-0f1f08ef-6aeb-4279-9227-e6e96fcaa69a.gif)
+
+<details>
+<summary>Emote List</summary>
+<b>Does not list personal emotes.</b>
+
+```
+ralseiweed
+asexual
+transgender
+aroace
+genderfluid
+bigender
+nonbinary
+aromantic
+bisexual
+pansexual
+LGBT / pride
+lesbian
+looky
+fnich
+why
+trollface
+stare
+ruin
+sadde
+sad
+letsgo
+laughedat
+flubshed
+desolate
+bruhe
+coolwoah
+alcoholism
+booba
+yes
+BibleThump
+4Head
+ResidentSleeper
+NotLikeThis
+WutFace
+THEROCK
+sussybaka
+peepoSad
+peepoBlanket
+WeirdChamp
+peepoLove
+weSmart
+REEeee
+monkaGun
+FeelsGoodMan
+peepoHappy
+FeelsOkayMan
+HYPERS
+YEP
+FeelsBadMan
+Sadge
+widepeepoSad
+PepeLaugh
+monkaS
+monkaW
+POGGERS
+KEKW
+LULW
+Pepega
+widepeepoHappy
+PepeHands
+Pog
+OMEGALUL
+```
+
+</details>
+
+</details>
+
 
 <details>
 <summary><b>Generated Clothes Baker</b></summary>
