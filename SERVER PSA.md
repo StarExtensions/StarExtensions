@@ -11,9 +11,9 @@ I tried to create a client-side workaround for StarExtensions but unfortunately,
 # 
 Make sure you are hosting Starbound version 1.4.4. Then, open the server executable in a hex editor and replace the bytes at the given offset with 0x90 to remove a line of code. Please use the offset instead of performing a byte search, as otherwise you could end up replacing the wrong occurrences of the instruction.
 
-- linux x86_64 1.4.4: `C6 83 E0 08 00 00 01` @ `0x9B616D`
-- windows x64 1.4.4: `C6 86 20 09 00 00 01` @ `0x399060`
-- windows x32 1.4.4: `C6 83 3C 06 00 00 01` @ `0x309107`
+- linux server x86_64 1.4.4: `C6 83 E0 08 00 00 01` @ `0x9B616D`
+- windows server x64 1.4.4: `C6 86 20 09 00 00 01` @ `0x399060`
+- windows server x32 1.4.4: `C6 83 3C 06 00 00 01` @ `0x309107`
 
 # 
 ### Technical Details
