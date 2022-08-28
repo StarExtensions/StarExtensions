@@ -38,3 +38,7 @@ if (m_identityUpdated) {
 ```
 
 This results in an endless cycle. When `Player::setNetStates` is called, it causes m_identity to be pushed to m_identityNetState. This is not necessary, as m_identityNetState already holds the identity received from the client. Now m_updated is true, and so the if statement in `Player::getNetStates` evaluates true and sets m_identityUpdated to true allowing this to repeat.
+
+### Footnote
+
+Open source your tragedy already, Finn!
