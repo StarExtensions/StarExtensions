@@ -181,6 +181,17 @@ clown_mfs
 parrot_wot
 deranged_cowboy
 morbius
+NOOOO
+PepeSus
+SadCat
+TrollDespair
+ayy_lmao
+clueless
+eyes
+monkaEyes
+gigachad
+moyai
+wasted
 ```
 
 </details>
