@@ -114,6 +114,7 @@ You can now type emotes! Only StarExtensions users can see emotes.
 <b>Does not list personal emotes.</b>
 
 ```
+ralsei
 ralseiweed
 asexual
 transgender
@@ -176,6 +177,10 @@ widepeepoHappy
 PepeHands
 Pog
 OMEGALUL
+clown_mfs
+parrot_wot
+deranged_cowboy
+morbius
 ```
 
 </details>
