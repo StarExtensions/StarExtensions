@@ -3,7 +3,7 @@
 The humanoid identity structure holds the player's character customization. It has become common for players on popular servers to directly modify this to further customize their character.
 
 You can modify your humanoid identity by converting your player file to the JSON format, editing it and then converting it back. If you have StarExtensions installed, you can simply use the **/identity** command in-game. 
-For example, a player could [generate directives](https://rexmeck.github.io/Drawable-Generator/) and put the output in their identity's hairDirectives to customize your hair.
+For example, you could [generate directives](https://rexmeck.github.io/Drawable-Generator/) and put the output in your identity's hairDirectives to customize your hair.
 
 Unfortunately, there is a bug in Starbound that causes the server to serialize the player's whole humanoid identity in every EntityUpdate sent over the network, **even if the identity has not changed.** This makes life difficult for users on low-end connections, and wastes bandwidth!
 
