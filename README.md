@@ -243,4 +243,6 @@ When another player tries to use a Lua script to copy your item, they get a doll
 
 • Fixed chat color state being lost from text wrapping to the next line.
 
+• Fixed players & NPCs talking shit about beans on toast. Beans on toast is a delicacy.
+
 ![image](https://user-images.githubusercontent.com/80987908/185369315-db8a641c-4e3b-435b-8251-acaaa4715fe6.png)
