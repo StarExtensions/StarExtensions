@@ -61,7 +61,7 @@ Originally present in Starbound's beta, player inspection is back! The **/descri
 
 Players and NPCs now use [Software Automatic Mouth](https://discordier.github.io/sam/). You can enable & customize it with **/speech**!
 
-Glitch get a voice by default. You may want to set a **/speech rule** after so it doesn't speak *all* (of) your text.
+Glitch get a voice by default. You may want to set a **/speech rule** after so it doesn't speak all of your text.
 
 Google's V8 JavaScript engine is embedded in StarExtensions to run the JavaScript version of SAM, as the C version is unstable.
 
