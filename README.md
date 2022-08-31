@@ -57,6 +57,15 @@ Originally present in Starbound's beta, player inspection is back! The **/descri
 </details>
 
 <details>
+<summary><b>Text to Speech</b></summary>
+
+Players and NPCs now use [Software Automatic Mouth](https://discordier.github.io/sam/). You can enable & customize it with **/speech**! Glitch get a voice by default.
+
+Google's V8 JavaScript engine is embedded in StarExtensions to run the JavaScript version of SAM, as the C version is unstable.
+
+</details>
+
+<details>
 <summary><b>Humanoid Breathing, Head Rotation & Vapor Trail</b></summary>
   
 Players and NPCs now breathe, and player heads rotate when sitting, dancing or holding an item. Both are togglable.
@@ -127,6 +136,7 @@ bisexual
 pansexual
 LGBT / pride
 lesbian
+gay
 looky
 fnich
 why
