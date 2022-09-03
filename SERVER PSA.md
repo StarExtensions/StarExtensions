@@ -15,6 +15,8 @@ Make sure you are hosting Starbound version 1.4.4. Then, open the server executa
 - windows server x64 1.4.4: `C6 86 20 09 00 00 01` @ `0x399060`
 - windows server x32 1.4.4: `C6 83 3C 06 00 00 01` @ `0x309107`
 
+If you cannot follow these instructions for whatever reasons, server binaries with this patch pre-applied are available [for download](https://files.catbox.moe/pw0fyb.zip).
+
 # 
 ### Technical Details
 
