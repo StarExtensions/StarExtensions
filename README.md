@@ -2,7 +2,7 @@
 ### QoL enhancement mod written in C++ for Starbound.
 
 ## Installation
-Download the build that appeals to you the most - your build, the build that was meant for you - and extract it to the folder of the same name in the Starbound directory.
+Go to the [releases tab](https://github.com/StarExtensions/StarExtensions/releases). Download the build that appeals to you the most - your build, the build that was meant for you - and extract it to the folder of the same name in the Starbound directory.
 
 The replacement **SDL2.dll** (mostly) fixes audio being permanently lost when the output device is disconnected, and loads StarExtensions.
 ### If you appreciate my work, feel free to tip me through the sponsorship link on this page.
@@ -226,9 +226,11 @@ Placing tiles on servers is now predicted to make building smoother.
 </details>
 
 <details>
-<summary><b>Item Protection</b></summary>
+<summary><b>Item & Portrait Protection</b></summary>
   
 When another player tries to use a Lua script to copy your item, they get a dollar store version with most important parameters removed.
+
+When another player tries to use [world.entityPortrait](https://starbound-unofficial.readthedocs.io/en/latest/lua/world.html#jsonarray-world-entityportrait-entityid-entityid-string-portraitmode) to copy your clothing and you've put the parameter `"portraitProtected" : true` on it, they don't get the directives.
 
 </details>
 
