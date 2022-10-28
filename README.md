@@ -1,4 +1,5 @@
-# *StarExtensions*
+![StarExtensions](https://files.catbox.moe/uoiedw.png)
+
 ### QoL enhancement mod written in C++ for Starbound.
 
 ## Installation
