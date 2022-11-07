@@ -237,8 +237,8 @@ When another player tries to use [world.entityPortrait](https://starbound-unoffi
 
 <details>
 <summary><b>Image & Armor Rendering</b></summary>
-Use the **/render** command to render an image with directives to your clipboard. This is useful for recovering sprites.
-You can also render your worn armor to the clipboard - type **/render** on its own for more information.
+Use the <b>/render</b> command to render an image with directives to your clipboard. This is useful for recovering sprites.
+You can also render your worn armor to the clipboard - type <b>/render</b> on its own for more information.
 </details>
 
 ## Fixes
