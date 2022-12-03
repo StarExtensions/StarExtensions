@@ -85,7 +85,7 @@ To add support for a modded species, add these files with a mod:
 - Used instead if the player has generated body directives (very very rare, you can just make 'em blank)
   - `/humanoid/<species>/dynamic/mask/<gender>body.png` - Moving mask
   - `/humanoid/<species>/dynamic/basemask/<gender>body.png` - Base mask
-To add support for an armor item, add these files to the armor item's directory with a mod, <image> being the same name of the original spritesheet such as 'chestf'.
+To add support for an armor item, add these files to the armor item's directory with a mod, \<image> being the same name of the original spritesheet such as 'chestf'.
 - `dynamic/base/<image>` - Base layer
 - `dynamic/<image>` - Moving layer
 - `dynamic/mask/<image>` - Mask to cut pixels out of the humanoid moving layer if necessary.
