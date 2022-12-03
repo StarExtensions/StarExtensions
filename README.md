@@ -69,12 +69,38 @@ Google's V8 JavaScript engine is embedded in StarExtensions to run the JavaScrip
 </details>
 
 <details>
-<summary><b>Humanoid Breathing, Head Rotation & Vapor Trail</b></summary>
+<summary><b>Humanoid Breathing, Head Rotation, Dynamics & Vapor Trail</b></summary>
   
-Players and NPCs now breathe, and player heads rotate when sitting, dancing or holding an item. Both are togglable.
+Humanoids now breathe, and player heads rotate when sitting, dancing or holding an item. Both are togglable.
   
 ![breathing](https://user-images.githubusercontent.com/80987908/185374557-b0eb1165-42f9-4115-86d9-6680060c65a6.gif)
 ![aiming](https://user-images.githubusercontent.com/80987908/185373968-1dc89371-f43a-4171-a493-c81a65dc37c9.gif)
+
+
+Humanoids now support chest dynamics.
+
+To add support for a modded species, add these files with a mod:
+- `/humanoid/<species>/dynamic/base/<gender>body.png` - Base layer
+- `/humanoid/<species>/dynamic/<gender>body.png` - Moving layer
+- Used instead if the player has generated body directives (very very rarely done, just make these white images for your mod)
+  - `/humanoid/<species>/dynamic/mask/<gender>body.png` - Moving mask
+  - `/humanoid/<species>/dynamic/basemask/<gender>body.png` - Base mask
+To add support for an armor item, add these files to the armor item's directory with a mod, <image> being the same name of the original spritesheet such as 'chestf'.
+- `dynamic/base/<image>` - Base layer
+- `dynamic/<image>` - Moving layer
+- `dynamic/mask/<image>` - Mask to cut pixels out of the humanoid moving layer if necessary.
+
+<b>You must add `"dynamic" : true` to the parameters (not the config) of an item instance to enable dynamics.</b>
+
+For <b>[vanilla-compatible generated clothing](https://silverfeelin.github.io/Starbound-NgOutfitGenerator/)</b>:
+- Add a table called `dynamicData` {} to the parameters. In it, you can insert the following generated directives from the outfit generator of your choice with these names:
+  - `base` - Base layer
+  - `moving` - Moving layer
+  - `mask` - Mask to cut pixels out of the humanoid moving layer if necessary.
+  - `overlay` - Non-moving overlay layer.
+  - You can also insert a `multiplier` number value to multiply the dynamics intensity.
+
+<b>Please remember to include a standard `directives` parameter for players without this mod!</b>
 
 Chucklefish gave humanoids [a vapor trail](https://playstarbound.com/21st-july-progress/). It's meant to appear when you fall but it seems they had forgotten to actually hook it up, so I did. It also now rotates with your velocity, and fades in.
 
