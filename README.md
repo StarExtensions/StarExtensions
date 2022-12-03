@@ -82,7 +82,7 @@ Humanoids now support chest dynamics.
 To add support for a modded species, add these files with a mod:
 - `/humanoid/<species>/dynamic/base/<gender>body.png` - Base layer
 - `/humanoid/<species>/dynamic/<gender>body.png` - Moving layer
-- Used instead if the player has generated body directives (very very rarely done, just make these white images for your mod)
+- Used instead if the player has generated body directives (very very rare, you can just make 'em blank)
   - `/humanoid/<species>/dynamic/mask/<gender>body.png` - Moving mask
   - `/humanoid/<species>/dynamic/basemask/<gender>body.png` - Base mask
 To add support for an armor item, add these files to the armor item's directory with a mod, <image> being the same name of the original spritesheet such as 'chestf'.
