@@ -3,7 +3,7 @@
 ### QoL enhancement mod written in C++ for Starbound.
 
 ## Installation
-Go to the [releases tab](https://github.com/StarExtensions/StarExtensions/releases). Download the build that appeals to you the most - your build, the build that was meant for you - and extract it to the folder of the same name in the Starbound directory.
+Go to the [latest release](https://github.com/StarExtensions/StarExtensions/releases/latest). Download either the win64 or win32 build, depending on which version of Starbound you use - and extract it to the folder of the same name in the Starbound directory.
 
 The replacement **SDL2.dll** (mostly) fixes audio being permanently lost when the output device is disconnected, and loads StarExtensions. As of 1.4.17, you can now create a file called **libraries.txt** in the win64/win32 folder and list other DLLs to load on each line.
 ### If you appreciate my work, feel free to tip me through the sponsorship link on this page.
