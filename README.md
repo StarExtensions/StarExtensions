@@ -16,7 +16,7 @@ By a truly unbelievable coincidence, I was recently out for a walk when I saw a 
 
 <sup>*disclaimer: this is a joke Tiyuri - please don't call Saul*</sup>
 ## Features
-Type **/guide** in-game to learn how to use these.
+Type **/guide** in-game with one of the following options: `chat`, `character`, `humanoid`, `misc`.
 
 <details>
 <summary><b>Character Swapper</b></summary>
