@@ -217,3 +217,10 @@ Returns the player's aim position.
 #### `void` player.playSong(`String` band, `String` resource, `String` abc)
 
 Makes the player break into song if they're holding an instrument.
+
+
+---
+
+# Effects Animator
+
+The effectsAnimator table is now available wherever the player table is, and allows you to call animator.* functions on the player's effects animator.
