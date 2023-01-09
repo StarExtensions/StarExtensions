@@ -22,7 +22,7 @@ The following key names are valid:
 <details>
 <summary><b>Keys</b></summary>
   
-`Backspace, Tab, Clear, Return, Esc, Space, !, ", #, $, &, ', (, ), *, +, ,, -, ., /, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, :, ;, <, =, >, ?, @, [, \, ], ^, _, ``, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, Del, Kp0, Kp1, Kp2, Kp3, Kp4, Kp5, Kp6, Kp7, Kp8, Kp9, Kp_period, Kp_divide, Kp_multiply, Kp_minus, Kp_plus, Kp_enter, Kp_equals, Up, Down, Right, Left, Ins, Home, End, PageUp, PageDown, F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11, F12, F13, F14, F15, NumLock, CapsLock, ScrollLock, RShift, LShift, RCtrl, LCtrl, RAlt, LAlt, RGui, LGui, AltGr, Compose, Help, PrintScreen, SysReq, Pause, Menu, Power`
+``Backspace, Tab, Clear, Return, Esc, Space, !, ", #, $, &, ', (, ), *, +, ,, -, ., /, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, :, ;, <, =, >, ?, @, [, \, ], ^, _, `, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, Del, Kp0, Kp1, Kp2, Kp3, Kp4, Kp5, Kp6, Kp7, Kp8, Kp9, Kp_period, Kp_divide, Kp_multiply, Kp_minus, Kp_plus, Kp_enter, Kp_equals, Up, Down, Right, Left, Ins, Home, End, PageUp, PageDown, F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11, F12, F13, F14, F15, NumLock, CapsLock, ScrollLock, RShift, LShift, RCtrl, LCtrl, RAlt, LAlt, RGui, LGui, AltGr, Compose, Help, PrintScreen, SysReq, Pause, Menu, Power``
 
 </details>
 
