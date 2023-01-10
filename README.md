@@ -263,6 +263,16 @@ When another player tries to use [world.entityPortrait](https://starbound-unoffi
 </details>
 
 <details>
+<summary><b>Item Drop Tooltips</b></summary>
+
+You can now hover over item drops to get to know them a little better.
+
+![](https://user-images.githubusercontent.com/80987908/211474220-c79eefb1-5098-486e-8f5f-bc9ac7cf9b5c.gif)
+
+
+</details>
+
+<details>
 <summary><b>Image & Armor Rendering</b></summary>
 Use the <b>/render</b> command to render an image with directives to your clipboard. This is useful for recovering sprites.
 You can also render your worn armor to the clipboard - type <b>/render</b> on its own for more information.
