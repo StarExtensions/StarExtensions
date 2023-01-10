@@ -1,3 +1,19 @@
+# Unsorted
+
+These are functions that aren't in any specific table.
+
+---
+
+#### `Maybe<LuaFunction>, Maybe<String>` loadstring(`String` source, [`String` name], [`LuaValue` env])
+
+Compiles the provided **source** and returns it as a callable function.
+If there are any syntax errors, returns `nil` and the error as a string instead.
+
+- **name** is used for error messages, the default is `"=(loadstring)"`.
+- **env** is used as the environment of the returned function, the default is `_ENV`.
+
+---
+
 # Root
 
 The root table now contains extra asset bindings and bindings to return the tile variant that is used for material and matmods at any position.
@@ -38,10 +54,8 @@ Returns the position of the camera.
 #### `void` camera.override(`Vec2F` position, `float` priority, [`Json` config])
 
 Adds a camera position override for the current frame. Optionally, provide **config** as a table containing at least one of:
-
-  - `String` **type**: either `"additive"` or `"blend"`
-
-  - `float` **influence**: The influence of this override.
+- `String` **type**: either `"additive"` or `"blend"`
+- `float` **influence**: The influence of this override.
 
 Camera overrides are applied in order of priority. If multiple overrides of the same priority are set, they are sorted based on call order.
 
@@ -326,3 +340,4 @@ If the player is playing a song then returns a `table` containing the player's s
 # Effects Animator
 
 The effectsAnimator table is available alongside the player table, and provides Starbound's animator.* functions for the player's effects animator.
+
