@@ -4,7 +4,7 @@ These are functions that aren't in any specific table.
 
 ---
 
-#### `Maybe<LuaFunction>, Maybe<String>` loadstring(`String` source, [`String` name], [`LuaValue` env])
+#### `Maybe<LuaFunction>, Maybe<String>` loadstring(`String` source, [`String` name, [`LuaValue` env]])
 
 Compiles the provided **source** and returns it as a callable function.
 If there are any syntax errors, returns `nil` and the error as a string instead.
@@ -43,7 +43,7 @@ Returns the raw data of an asset.
 
 # Camera
 
-The camera table contians bindings which allow scripts to access and modify the camera pixel ratio aka zoom level, position and set per-frame overrides.
+The camera table contains bindings which allow scripts to access and modify the camera pixel ratio aka zoom level, position and set per-frame overrides.
 
 ---
 
@@ -68,6 +68,20 @@ Returns the camera's pixel ratio.
 #### `unsigned` camera.setPixelRatio(`unsigned` pixelRatio)
 
 Sets the camera's pixel ratio. **pixelRatio** must be above 0.
+
+---
+
+# Interface
+
+The interface table contains bindings which allow scripts to show text under the cursor and display a message at the bottom of the screen.
+
+#### `bool` interface.setCursorText(`String` text, [`bool` override])
+
+Sets the displayed cursor text. Pass **override** as `true` if you want to override the game's cursor text, but as it's sparsely used it isn't too important.
+
+#### `void` interface.queueMessage(`String` message, [`float` cooldown, [`float` springState]])
+
+Queues a message popup at the bottom of the screen with an optional **cooldown** and **springState**.
 
 ---
 
