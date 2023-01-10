@@ -311,7 +311,7 @@ Returns the player's aim position.
 
 Makes the player do an emote with the default cooldown unless a **cooldown** is specified.
 
-#### `String, float` player.setDescription(`String` description)
+#### `String, float` player.currentEmote()
 
 Returns the player's current emote and the seconds left in it.
 
