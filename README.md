@@ -1,4 +1,4 @@
-![StarExtensions](https://files.catbox.moe/djttgn.png)
+![StarExtensions](https://files.catbox.moe/qlqnge.png)
 
 ### QoL enhancement mod written in C++ for Starbound.
 
