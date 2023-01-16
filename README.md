@@ -13,7 +13,8 @@ This'll eventually be fixed but in the meantime you can [add this to /mods/](htt
 </details>
 
 The replacement **SDL2.dll** (mostly) fixes audio being permanently lost when the output device is disconnected, and loads StarExtensions. You can create a file called **libraries.txt** in the win64/win32 folder and list other DLLs to load on each line.
-### If you appreciate my work, feel free to tip me through the sponsorship link on this page
+### If you appreciate my work, feel free to tip me through the sponsorship link on this page.
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q1EH3WV)
 
 ## Origin
 
