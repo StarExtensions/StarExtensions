@@ -5,8 +5,15 @@
 ## Installation
 Go to the [latest release](https://github.com/StarExtensions/StarExtensions/releases/latest). Download either the win64 or win32 build, depending on which version of Starbound you use - and extract it to the folder of the same name in the Starbound directory.
 
-The replacement **SDL2.dll** (mostly) fixes audio being permanently lost when the output device is disconnected, and loads StarExtensions. As of 1.4.17, you can now create a file called **libraries.txt** in the win64/win32 folder and list other DLLs to load on each line.
-### If you appreciate my work, feel free to tip me through the sponsorship link on this page.
+<details><summary>Open if you use <b>RPG Growth</b></summary>
+
+There is currently a minor incompatibility with [RPG Growth](https://steamcommunity.com/sharedfiles/filedetails/?id=1115920474)'s tech, due to them using an outdated version of Silverfeelin's [Keybinds](https://github.com/Silverfeelin/Starbound-Keybinds) library.
+This'll eventually be fixed but in the meantime you can [add this to /mods/](https://cdn.discordapp.com/attachments/176662557199695883/1064373173711290399/SilverfeelinKeybinds.pak), which replaces the script with the latest version to fix it.
+
+</details>
+
+The replacement **SDL2.dll** (mostly) fixes audio being permanently lost when the output device is disconnected, and loads StarExtensions. You can create a file called **libraries.txt** in the win64/win32 folder and list other DLLs to load on each line.
+### If you appreciate my work, feel free to tip me through the sponsorship link on this page
 
 ## Origin
 
