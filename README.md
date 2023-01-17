@@ -8,7 +8,7 @@ Go to the [latest release](https://github.com/StarExtensions/StarExtensions/rele
 <details><summary>Open if you use <b>RPG Growth</b></summary>
 
 There is currently a minor incompatibility with [RPG Growth](https://steamcommunity.com/sharedfiles/filedetails/?id=1115920474)'s tech, due to them using an outdated version of Silverfeelin's [Keybinds](https://github.com/Silverfeelin/Starbound-Keybinds) library.
-This'll eventually be fixed but in the meantime you can [add this to /mods/](https://cdn.discordapp.com/attachments/176662557199695883/1064373173711290399/SilverfeelinKeybinds.pak), which replaces the script with the latest version to fix it.
+This'll eventually be fixed but in the meantime you can [add this to /mods/](https://cdn.discordapp.com/attachments/176662557199695883/1064715326744445089/SilverfeelinKeybinds.pak), which replaces the script with the latest version to fix it.
 
 </details>
 
