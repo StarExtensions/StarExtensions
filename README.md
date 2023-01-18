@@ -27,6 +27,42 @@ By a truly unbelievable coincidence, I was recently out for a walk when I saw a 
 Type **/guide** in-game with one of the following options: `chat`, `character`, `humanoid`, `misc`.
 
 <details>
+<summary><b>Input Binds</b></summary>
+
+StarExtensions adds support for mods to add custom bindings. Type <b>/binds</b> to open the bindings menu.
+
+Modders: to add your own binds, add a .binds file anywhere in your mod. Be careful not to overwrite someone elses .binds file.
+Here is an example .binds file, which adds a bind with two defaults.
+
+```json
+{
+  "examplemod": {
+    "name": "Example Mod",
+    "bannerName" : "Example Mod!!",
+    "binds": {
+      "awesomebind": {
+        "default": [{
+          "type": "key",
+          "value": "C",
+          "mods": ["LShift"]
+        },
+        {
+          "type": "key",
+          "value": "V",
+          "mods": ["LShift"]
+        }],
+        "name": "Awesome Bind"
+      }
+    }
+  }
+}
+```
+
+You can then use the **input.bind\*** functions.
+
+</details>
+
+<details>
 <summary><b>Character Swapper</b></summary>
 
 Swap with your other selves. The ship of the character you joined as stays & saves to the original character's ship file.
