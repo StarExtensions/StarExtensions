@@ -5,6 +5,8 @@
 ## Installation
 Go to the [latest release](https://github.com/StarExtensions/StarExtensions/releases/latest). Download either the win64 or win32 build, depending on which version of Starbound you use - and extract it to the folder of the same name in the Starbound directory.
 
+StarExtensions does not work on Windows 7, which Microsoft [ended support & security updates for over three years ago](https://support.microsoft.com/en-us/windows/windows-7-support-ended-on-january-14-2020-b75d4580-2cc7-895a-2c9c-1466d9a53962).
+
 The replacement **SDL2.dll** (mostly) fixes audio being permanently lost when the output device is disconnected, and loads StarExtensions. You can create a file called **libraries.txt** in the win64/win32 folder and list other DLLs to load on each line.
 ### If you appreciate my work, feel free to tip me through the sponsorship link on this page.
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q1EH3WV)
@@ -101,7 +103,7 @@ Players and NPCs now use [Software Automatic Mouth](https://discordier.github.io
 
 Glitch get a voice by default. You may want to set a **/speech rule** after so it doesn't speak all of your text.
 
-Google's V8 JavaScript engine is embedded in StarExtensions to run the JavaScript version of SAM, as the C version is unstable.
+Many thanks to thedjinn for [porting SAM to Rust](https://github.com/thedjinn/rustsam)!
 
 </details>
 
