@@ -78,6 +78,40 @@ Returns the raw data of an asset.
 
 ---
 
+#### `Json` root.getConfiguration(`String` key)
+
+Gets a configuration value.
+
+#### `Json` root.getConfigurationPath(`String` path)
+
+Gets a configuration value by path.
+
+*Both getters will error if you try to get `title`, as that can contains the player's saved server login.*
+
+#### `Json` root.setConfiguration(`String` key, `Json` value)
+
+Sets a configuration value.
+
+#### `Json` root.setConfigurationPath(`String` path,  `Json` value)
+
+Sets a configuration value by path.
+
+*Both setters will error if you try to set `safeScripts`, as that can break Starbound's sandbox.*
+
+---
+
+# StarExtensions
+
+all you get is a function to get the version of StarExtensions. we're out of fries, and the ice cream machine is fucking broken again 💀
+
+---
+
+#### `String` starExtensions.version()
+
+duh
+
+---
+
 # Camera
 
 The camera table contains bindings which allow scripts to access and modify the camera pixel ratio aka zoom level, position and set per-frame overrides.
@@ -108,6 +142,32 @@ Sets the camera's pixel ratio. **pixelRatio** must be above 0.
 
 ---
 
+#### `Vec2U` camera.screenSize()
+
+Returns the camera's screen size.
+
+#### `Vec2F` camera.screenToWorld(`Vec2F` screenCoords)
+
+Converts screen pixel coordinates to world coordinates.
+
+#### `Vec2F` camera.worldToScreen(`Vec2F` worldCoords)
+
+Converts world coordinates to screen pixel coordinates.
+
+---
+
+# World
+
+The world table now contains bindings to get all the world properties and current latency to the server
+
+#### `Json` world.properties([`bool` skipValues])
+
+Returns all the world properties. if **skipValues** is true, only includes property keys.
+
+#### `unsigned` world.latency()
+
+Returns the current latency to the server.
+
 # Interface
 
 The interface table contains bindings which allow scripts to show text under the cursor and display a message at the bottom of the screen.
@@ -120,11 +180,33 @@ Sets the displayed cursor text. Pass **override** as `true` if you want to overr
 
 Queues a message popup at the bottom of the screen with an optional **cooldown** and **springState**.
 
+#### `void` interface.setHudVisible(`bool` visible)
+
+Sets the HUD's visibility.
+
+#### `bool` interface.hudVisible()
+
+Returns the HUD's visibility.
+
+#### `bool` interface.drawDrawable(`Drawable` drawable, `Vec2F` position, `int` pixelRatio, [`Color` color])
+
+Pushes a drawable to be drawn to the screen.
+
+---
+
+# Starbound
+---
+
+#### `unsigned` sb.framesSkipped()
+
+Returns how many frames have been skipped.
+
 ---
 
 # Input
 
 The input table contains bindings which provide the key down, held and up states for each key.
+
 <details>
 <summary><b>Valid Keys</b></summary>
   
@@ -148,6 +230,10 @@ The input table contains bindings which provide the key down, held and up states
 
 ---
 
+#### `Vec2I` input.mousePosition()
+  
+Returns the mouse position.
+  
 #### `bool` input.mouse(`String` mouseButtonId)
 
 Returns true if the specified mouse button is being held.
@@ -159,7 +245,7 @@ Returns true if the specified mouse button was pressed this frame. If true, then
 #### `bool, Vec2I[]` input.mouseUp(`String` mouseButtonId)
 
 Returns true if the specified mouse button was released this frame. If true, then also returns a list of positions where the mouse was released.
-  
+
 ---
 
 #### `bool` input.key(`String` keyId)
@@ -173,6 +259,64 @@ Returns true if the specified key was pressed this frame. If an array of KeyMods
 #### `bool` input.keyUp(`String` keyId)
 
 Returns true if the specified key was released this frame.
+  
+***Please do not evaluate the result of these functions using `== true` as the positive return value type may change in the future.***
+  
+---
+  
+#### `InputEvent[]` input.events()
+  
+Returns all the input events that have happened this frame. Each input event contains a string `type`, and `data` which can vary based on the type of input, see below.
+  
+<details><summary><b>Supported Input Events</b></summary>
+
+```lua
+-- KeyDown
+{
+  "key" : Key
+  "mods" : [KeyMod...]
+}
+  
+-- KeyUp
+{
+  "key" : Key (string)
+}
+  
+-- MouseButtonDown
+-- MouseButtonUp
+{
+  "mouseButton" : MouseButton
+  "mousePosition" : Vec2I
+}
+
+-- MouseWheel
+{
+  "mouseWheel" : 1 or -1
+  "mousePosition" : Vec2I
+}
+  
+-- MouseMove
+{
+  "mouseMove" : Vec2I
+  "mousePosition" : Vec2I
+}
+```
+  
+</details>
+
+---
+  
+#### `bool` input.bind(`String` categoryId, `String` bindId)
+
+Returns true if the specified input binding is being held. Errors if the bind isn't in the database.
+
+#### `bool` input.bindDown(`String` categoryId, `String` bindId)
+
+Returns true if the specified input binding was pressed this frame. Errors if the bind isn't in the database.
+
+#### `bool` input.bindUp(`String` categoryId, `String` bindId)
+
+Returns true if the specified input binding was released this frame. Errors if the bind isn't in the database.
 
 ---  
 
