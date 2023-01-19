@@ -70,6 +70,7 @@ By the way, here's a list of every file extension the game does Special Thingsâ„
 - Dances: `dance`
 - Effect Sources: `effectsource`
 - Command Macros: `macros`
+- Recipes: `recipe`
 </details>
 
 #### `String` root.assetData(`String` path)
@@ -160,6 +161,8 @@ Converts world coordinates to screen pixel coordinates.
 
 The world table now contains bindings to get all the world properties and current latency to the server
 
+---
+
 #### `Json` world.properties([`bool` skipValues])
 
 Returns all the world properties. if **skipValues** is true, only includes property keys.
@@ -191,6 +194,53 @@ Returns the HUD's visibility.
 #### `bool` interface.drawDrawable(`Drawable` drawable, `Vec2F` position, `int` pixelRatio, [`Color` color])
 
 Pushes a drawable to be drawn to the screen.
+
+---
+
+# Chat
+
+The chat table contains bindings to run commands, get the user's input, set/get the font size and add local-only messages to the chat log.
+
+---
+
+#### `String[]` chat.command(`String` command)
+
+Runs a chat command and returns the result.
+
+#### `String` chat.input()
+
+Returns the chat box text.
+
+---
+
+#### `void` chat.addMessage(`String` text, [`Json` config])
+
+Adds a message to the chat log. Example **config**:
+
+```lua
+{
+  mode = "Local", -- Local, Party, Broadcast, Whisper, CommandResult (default), RadioMessage, World
+  portrait = "/interface/chatbubbles/captainrage.png:default",
+  fromNick = "Jerma985",
+  showPane = false -- defaults to true
+}
+```
+
+---
+
+#### `void` chat.clear([`unsigned` count])
+
+Clears the chat box, or up to **count** if specified.
+
+---
+
+#### `void` chat.setFontSize(`unsigned` fontSize)
+
+Sets the font size.
+
+#### `unsigned` chat.fontSize()
+
+Returns the font size.
 
 ---
 
