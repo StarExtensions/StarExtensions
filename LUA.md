@@ -360,13 +360,13 @@ Returns all the input events that have happened this frame. Each input event con
 
 Returns true if the specified input binding is being held. Errors if the bind isn't in the database.
 
-#### `bool` input.bindDown(`String` categoryId, `String` bindId)
+#### `unsigned` input.bindDown(`String` categoryId, `String` bindId)
 
-Returns true if the specified input binding was pressed this frame. Errors if the bind isn't in the database.
+Returns how many times the specified bind was pressed this frame, or false if not at all. Errors if the bind isn't in the database.
 
-#### `bool` input.bindUp(`String` categoryId, `String` bindId)
+#### `unsigned` input.bindUp(`String` categoryId, `String` bindId)
 
-Returns true if the specified input binding was released this frame. Errors if the bind isn't in the database.
+Returns how many times the specified bind was released this frame, or false if not at all. Errors if the bind isn't in the database.
 
 ---  
 
