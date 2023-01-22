@@ -253,6 +253,12 @@ Returns how many frames have been skipped.
 
 ---
 
+#### `unsigned, String` sb.lastLuaError()
+
+Returns an ID and the last LuaException as a string.
+
+---
+
 # Input
 
 The input table contains bindings which provide the key down, held and up states for each key.
@@ -283,6 +289,10 @@ The input table contains bindings which provide the key down, held and up states
 #### `Vec2I` input.mousePosition()
   
 Returns the mouse position.
+  
+#### `void` input.setMousePosition()
+  
+Sets the mouse position.
   
 #### `bool` input.mouse(`String` mouseButtonId)
 
