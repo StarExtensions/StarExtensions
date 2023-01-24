@@ -170,9 +170,9 @@ Makes the dark.. not so dark.
 
 
 <details>
-<summary><b>Better Tech Scaling</b></summary>
+<summary><b>Better Scaling</b></summary>
 
-Beautifies tech scaling by changing how it's rendered to scale the drawables instead of the sprites. Works with any scaling tech!
+Beautifies tech and status scaling by changing how it's rendered to scale the drawables instead of the sprites. Works with parent directives set from tech and status effect scripts, and primary directives from status primary scripts!
 
 This also fixes various offset issues with scaling, such as your head detaching when you crouch.
 
