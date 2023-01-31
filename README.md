@@ -160,6 +160,15 @@ You can now apply processing directives to the chat font, the default is `?borde
 </details>
 
 <details>
+<summary><b>Enhanced Liquid</b></summary>
+
+Smoothens out the appearance of liquid and adds a highlight to the top.
+![healing_liquid](https://user-images.githubusercontent.com/80987908/215626572-3fd5ec7a-b5cc-49df-a6f2-52161bbe265f.gif)
+
+
+</details>
+
+<details>
 <summary><b>Night Vision</b></summary>
 
 Makes the dark.. not so dark.
