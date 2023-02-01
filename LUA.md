@@ -386,7 +386,7 @@ The player table now contains bindings which contains functions to save/load, ac
 
 ---
 
-#### `Jsom` player.save()
+#### `Json` player.save()
 
 Serializes the player to Json the same way Starbound does for disk storage and returns it.
 
