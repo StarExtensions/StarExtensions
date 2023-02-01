@@ -392,7 +392,7 @@ Serializes the player to Json the same way Starbound does for disk storage and r
 
 #### `void` player.load(`Json` save)
 
-Reloads the player from a Json **save**.
+Reloads the player from a Json **save**. This will reset active ScriptPanes and scripts running on the player.
   
 ---
 
