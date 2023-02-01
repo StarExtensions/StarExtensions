@@ -382,8 +382,18 @@ Returns how many times the specified bind was released this frame, or false if n
 
 # Player
 
-The player table now contains bindings which contains functions to access and modify the player's identity, mode, aim, emote and more.
+The player table now contains bindings which contains functions to save/load, access and modify the player's identity, mode, aim, emote and more.
 
+---
+
+#### `Jsom` player.save()
+
+Serializes the player to Json the same way Starbound does for disk storage and returns it.
+
+#### `void` player.load(`Json` save)
+
+Reloads the player from a Json **save**.
+  
 ---
 
 #### `String` player.name()
