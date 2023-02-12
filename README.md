@@ -103,6 +103,42 @@ Players and NPCs now use [Software Automatic Mouth](https://discordier.github.io
 
 Glitch get a voice by default. You may want to set a **/speech rule** after so it doesn't speak all of your text.
 
+You can give other species a default voice with a patch. Here's the patch used for Glitch as an example:
+
+**/species/glitch.species.patch**
+```json
+[
+  {
+    "op": "add",
+    "path": "/samVoiceProfiles",
+    "value": {
+      "male": {
+        "pitch": 50,
+        "mouth": 142,
+        "throat": 142
+      },
+      "female": {
+        "pitch": 32,
+        "mouth": 180,
+        "throat": 165
+      }
+    }
+  }
+]
+```
+
+These are the default variables:
+```json
+{
+  "sing" : false,
+  "pitch" : 64,
+  "speed" : 72,
+  "mouth" : 128,
+  "throat" : 128,
+  "audioSpeed" : 1.0
+}
+```
+
 Many thanks to thedjinn for [porting SAM to Rust](https://github.com/thedjinn/rustsam)!
 
 </details>
