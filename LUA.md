@@ -213,7 +213,7 @@ Returns the chat input box text.
 
 #### `String` chat.setInput(`String` text)
 
-Sets the chat input box text. Newlines are replaced with spaces.
+Sets the chat input box text. Newlines are replaced with spaces - if the passed text was modified, returns the changed text.
 
 ---
 
