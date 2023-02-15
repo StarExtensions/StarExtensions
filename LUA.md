@@ -209,7 +209,11 @@ Runs a chat command and returns the result.
 
 #### `String` chat.input()
 
-Returns the chat box text.
+Returns the chat input box text.
+
+#### `String` chat.setInput(`String` text)
+
+Sets the chat input box text. Newlines are replaced with spaces.
 
 ---
 
