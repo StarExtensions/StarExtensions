@@ -430,6 +430,16 @@ Sets the player's species. Must be a valid species.
 
 ---
 
+#### `String` player.gender()
+
+Returns the player's gender.
+
+#### `void` player.setGender(`String` gender)
+
+Sets the player's gender.
+
+---
+
 #### `String` player.imagePath()
 
 If the player has a custom humanoid image path set, returns it. otherwise, returns `nil`.
