@@ -494,6 +494,18 @@ Returns how many times the specified bind was pressed this frame, or false if no
 
 Returns how many times the specified bind was released this frame, or false if not at all. Errors if the bind isn't in the database.
 
+---
+
+# Vehicle
+  
+The vehicle table is new, it just contains by request a binding to check the shifting state of occupants (that wasn't a thing?!)
+  
+---
+  
+#### `bool` vehicle.shiftingHeld(`String` loungeName)
+  
+Returns whether at least one occupant of the specified lounge name is holding shift.
+  
 ---  
 
 # Player
