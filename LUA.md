@@ -1,3 +1,21 @@
+# Permissions
+
+A few of these need your mod to ask for permission to use by adding `permissions` to the **_metadata** file in your mod.
+
+<details><summary><b>Example</b></summary>
+  
+```json
+{
+  "description" : "holy fucking bingle.."
+  "name" : "awesom mod!! :3c",
+  "permissions" : ["example", "a", "b", "c"]
+}
+```
+  
+</details>
+
+---
+
 # Unsorted
 
 These are functions that aren't in any specific table.
@@ -103,13 +121,109 @@ Sets a configuration value by path.
 
 # StarExtensions
 
-all you get is a function to get the version of StarExtensions. we're out of fries, and the ice cream machine is fucking broken again 💀
+
 
 ---
 
 #### `String` starExtensions.version()
 
 duh
+
+---
+
+#### `bool` starExtensions.hasPermission(`String` permission)
+
+Returns whether the currently executing script has permission to use the specified functionality.
+
+---
+
+# Window
+
+The window table contains bindings to get and set the state of the game window.
+
+**Your mod must have the permission `"window"` to use these.**
+
+---
+
+#### `bool` window.mouseFocused()
+
+Returns whether the window has mouse focus.
+
+#### `bool` window.inputFocused()
+
+Returns whether the window has input focus.
+
+#### `bool` window.borderless()
+
+Returns whether the window is bordered.
+
+#### `void` window.setBorderless()
+
+Sets the window's borderless state.
+
+#### `bool` window.grabbed()
+
+Returns whether the window is grabbed.
+
+#### `void` window.setGrabbed()
+
+Sets the window's grab state.
+
+#### `String` window.title()
+
+Returns the window title.
+
+#### `void` window.setTitle()
+
+Sets the window title.
+
+#### `Vec2I` window.size()
+
+Returns the window size.
+
+#### `void` window.setSize()
+
+Sets the window size.
+
+#### `Vec2U` window.screenSize()
+
+Returns the screen size.
+
+#### `Vec2I` window.translate(`Vec2I` offset)
+
+Moves the window by offset and returns the new position.
+
+#### `Vec2I` window.position()
+
+Returns the window position.
+
+#### `void` window.setPosition(`Vec2I` position)
+
+Sets the window position.
+
+#### `void` window.flash(`String` operation)
+
+Flashes the window in the taskbar. `operation` can be either `"untilFocus"`, `"briefly"` or `"cancel"`.
+
+---
+
+# Clipboard
+
+The clipboard table contains bindings to read and write text to the clipboard. 
+
+**Your mod must have the permission `"clipboard"` to use these.**
+
+#### `bool` clipboard.hasText()
+
+Returns whether the clipboard contains text.
+
+#### `Maybe<String>` clipboard.getText()
+
+If the clipboard has text, returns it. Otherwise, returns `nil`.
+
+#### `Maybe<String>` clipboard.setText()
+
+Sets the clipboard text. If there was an error doing so, returns it as a string.
 
 ---
 
