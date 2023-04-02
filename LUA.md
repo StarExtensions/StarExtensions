@@ -129,8 +129,6 @@ Sets a configuration value by path.
 
 duh
 
----
-
 #### `bool` starExtensions.hasPermission(`String` permission)
 
 Returns whether the currently executing script has permission to use the specified functionality.
