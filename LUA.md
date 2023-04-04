@@ -327,9 +327,9 @@ Runs a chat command and returns the result.
 
 Returns the chat input box text.
 
-#### `String` chat.setInput(`String` text)
+#### `String` chat.setInput(`String` text, [`bool` moveCursor])
 
-Sets the chat input box text. Newlines are replaced with spaces - if the passed text was modified, returns the changed text.
+Sets the chat input box text, optionally moving the cursor position to the end. Newlines are replaced with spaces - if the passed text was modified, returns the changed text.
 
 ---
 
