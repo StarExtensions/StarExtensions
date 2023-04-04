@@ -14,6 +14,10 @@ A few of these need your mod to ask for permission to use by adding `permissions
   
 </details>
 
+The permissions system is in an early state. Currently, its purpose is to make it easier for players to check what restricted functionality your mod is able to use by simply looking at your mod's metadata (which is arguably far better than having to dig through script files!)
+
+In the future, permission may not be guaranteed. You can check this with the **starExtensions.hasPermission** function.
+
 ---
 
 # Unsorted
