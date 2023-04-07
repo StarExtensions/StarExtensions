@@ -150,10 +150,81 @@ Humanoids now breathe, and player heads rotate when sitting, dancing or holding 
   
 ![breathing](https://user-images.githubusercontent.com/80987908/185374557-b0eb1165-42f9-4115-86d9-6680060c65a6.gif)
 ![aiming](https://user-images.githubusercontent.com/80987908/185373968-1dc89371-f43a-4171-a493-c81a65dc37c9.gif)
+  
+Chucklefish gave humanoids [a vapor trail](https://playstarbound.com/21st-july-progress/). It's meant to appear when you fall but it seems they had forgotten to actually hook it up, so I did. It also now rotates with your velocity, and fades in.
 
+![vapor_trail](https://user-images.githubusercontent.com/80987908/185793966-153761ed-14a2-4419-9ba3-fac31644fb61.gif)
+  
+<details>
+<summary>Humanoid Guide</summary>
 
-Humanoids now support chest dynamics.
+### Humanoid Overrides
+In your .species config file, you can specify the following in `"humanoidOverrides" : {}`:
+ 
+<details>
+<summary>.species:humanoidOverrides example</summary>
+  
+```json
+"humanoidOverrides" : {
+  "headSliceY" : 25,
+  // THIS IS DEPRECATED! cleaves the body in two, using the upper slice as part of the head for rotation.
+  
+  // if your body spritesheet has pixels that must appear attached to the head,
+  // then these two are available for head rotation compatibility.
+  "useBodyMask" : true,
+  // adds a ?blendmult=/humanoid/<species>/mask/<gender>body.png to the body drawable's directives
+  "useBodyHeadMask" : true,
+  // 1. copies the body drawable
+  // 2. prefixes ?blendmult=/humanoid/<species>/headmask/<gender>body.png to the directives
+  // 3. moves it as if part of the head, overrides headSliceY
+  
+  "headUsesBodyFrame" : true,
+  // makes the head copy the body's frame when drawn
+  "hairUsesBodyFrame" : true,
+  // makes the hair copy the body's frame when drawn
+  "facialHairUsesBodyFrame" : true,
+  // makes the facial hair copy the body's frame when drawn
+}
+```
+ 
+</details>
 
+If you are using the `xUsesBodyFrame` options, you will need to add .frames files to your `/humanoid/<species>/` folder that match the body frames.
+<details>
+<summary>template [female/male]head.frames OR hair/default.frames</summary>
+  
+```json
+{
+  "frameGrid" : {
+    "size" : [43, 43],
+    "dimensions" : [9, 6],
+
+    "names" : [
+      [ null, "idle.1", "idle.2", "idle.3", "idle.4", "idle.5", "sit.1", null, "duck.1" ],
+      [ null, "walk.1", "walk.2", "walk.3", "walk.4", "walk.5", "walk.6", "walk.7", "walk.8" ],
+      [ null, "run.1", "run.2", "run.3", "run.4", "run.5", "run.6", "run.7", "run.8" ],
+      [ null, "jump.1", "jump.2", "jump.3", "jump.4", "fall.1", "fall.2", "fall.3", "fall.4" ],
+      [ null, "climb.1", "climb.2", "climb.3", "climb.4", "climb.5", "climb.6", "climb.7", "climb.8" ],
+      [ null, "swimIdle.1", null, null, "swim.1", "swim.2", "swim.3", "swim.4" ]
+    ]
+  },
+  "aliases" : {
+    "swimIdle.2" : "swimIdle.1",
+    "swim.5" : "swimIdle.1",
+    "swim.6" : "swimIdle.1",
+    "swim.7" : "swimIdle.1",
+    "lay.1" : "run.8",
+    //aliases for vanilla compatibility
+    "normal" : "idle.1",
+    "climb" : "climb.1"
+  }
+}
+```
+  
+</details>
+  
+### Dynamics
+  
 To add support for a modded species, add these files with a mod:
 - `/humanoid/<species>/dynamic/base/<gender>body.png` - Base layer
 - `/humanoid/<species>/dynamic/<gender>body.png` - Moving layer
@@ -176,11 +247,11 @@ For <b>[vanilla-compatible generated clothing](https://silverfeelin.github.io/St
   - `overlay` - Non-moving overlay layer.
   - You can also insert a `multiplier` number value to multiply the dynamics intensity.
 
-<b>Please remember to include a standard `directives` parameter for players without this mod!</b>
+<b>Please remember to include a standard `directives` parameter for players without this mod or dynamics enabled!</b>
 
-Chucklefish gave humanoids [a vapor trail](https://playstarbound.com/21st-july-progress/). It's meant to appear when you fall but it seems they had forgotten to actually hook it up, so I did. It also now rotates with your velocity, and fades in.
+</details>
 
-![vapor_trail](https://user-images.githubusercontent.com/80987908/185793966-153761ed-14a2-4419-9ba3-fac31644fb61.gif)
+---
 
 </details>
 
