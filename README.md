@@ -154,9 +154,18 @@ Humanoids now breathe, and player heads rotate when sitting, dancing or holding 
 Chucklefish gave humanoids [a vapor trail](https://playstarbound.com/21st-july-progress/). It's meant to appear when you fall but it seems they had forgotten to actually hook it up, so I did. It also now rotates with your velocity, and fades in.
 
 ![vapor_trail](https://user-images.githubusercontent.com/80987908/185793966-153761ed-14a2-4419-9ba3-fac31644fb61.gif)
-  
+
 <details>
 <summary>Humanoid Guide</summary>
+
+### NPCs
+To disable breathing or dynamics on NPCs, these can be put in their status properties:
+```json
+{
+  "disableBreathing" : true,
+  "disableDynamics" : true
+}
+```
 
 ### Humanoid Overrides
 In your .species config file, you can specify the following in `"humanoidOverrides" : {}`:
