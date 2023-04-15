@@ -383,6 +383,12 @@ Returns an ID and the last LuaException as a string.
 
 ---
 
+#### `Json` sb.jsonFromString(`String` json)
+
+Parses a Json value from a String.
+
+---
+
 # Input
 
 The input table contains bindings which provide the key down, held and up states for each key.
