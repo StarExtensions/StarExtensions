@@ -22,6 +22,17 @@ By a truly unbelievable coincidence, I was recently out for a walk when I saw a 
 Type **/guide** in-game with one of the following options: `chat`, `character`, `humanoid`, `misc`.
 
 <details>
+<summary><b>Proximity Voice Chat</b></summary>
+
+StarExtensions adds **proximity voice chat**.
+
+Type **/voice** to open the menu, but don't forget to set the push-to-talk bind in **/binds**.
+
+![image](https://user-images.githubusercontent.com/80987908/232179267-13c3111a-1a6e-4cdc-ac3c-75380fa9ebde.png)
+
+</details>
+
+<details>
 <summary><b>Input Binds</b></summary>
 
 StarExtensions adds support for mods to add custom bindings. Type <b>/binds</b> to open the bindings menu.
