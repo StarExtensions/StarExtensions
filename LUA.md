@@ -319,6 +319,10 @@ The chat table contains bindings to run commands, get the user's input, set/get 
 
 ---
 
+#### `LuaValue ...` chat.parseArguments(`String` args)
+
+You can set player entity message handlers prefixed with a forward-slash `/` to make them usable as chat commands, with the text written after passed as an argument. Use **chat.parseArguments** to convert this text into Lua values.
+
 #### `String[]` chat.command(`String` command)
 
 Runs a chat command and returns the result.
@@ -721,6 +725,24 @@ Makes the player do an emote with the default cooldown unless a **cooldown** is 
 #### `String, float` player.currentEmote()
 
 Returns the player's current emote and the seconds left in it.
+  
+---
+
+#### `unsigned` player.actionBarGroup()
+
+Returns the player's active action bar.
+  
+#### `void` player.setActionBarGroup(`unsigned` barId)
+  
+Sets the player's active action bar.
+  
+#### `Variant<unsigned, EssentialItem>` player.selectedActionBarSlot()
+
+Returns the player's selected action bar slot.
+  
+#### `void` player.setSelectedActionBarSlot(`Variant<unsigned, EssentialItem>` slot)
+  
+Sets the player's selected action bar slot.
 
 ---
 
