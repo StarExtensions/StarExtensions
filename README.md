@@ -449,8 +449,33 @@ You can now hover over item drops to get to know them a little better.
 
 <details>
 <summary><b>Image & Armor Rendering</b></summary>
+
 Use the <b>/render</b> command to render an image with directives to your clipboard. This is useful for recovering sprites.
 You can also render your worn armor to the clipboard - type <b>/render</b> on its own for more information.
+
+</details>
+
+<details>
+<summary><b>Misc Notes for Modders</b></summary>
+
+I'm just putting these here until I have a better place for them.
+
+You can override the Pane Layer of Script Panes now.
+In a script pane's config, specify "paneLayer" with a string value of either:
+
+`"tooltip", "modalWindow", "stickyWindow", "hud"`
+
+Specifying "hud" prevents the pane from displaying the player's menu icon.
+You can make a ScriptPane non-dismissable by setting these two:
+```json
+"paneLayer" : "hud",
+"dismissable" : false
+```
+
+You can specify immediateSoundPool alongside the vanilla immediateSound in an animation state's properties to play a random immediateSound.
+
+**immediateSoundPool** must be an array, with each entry being a possible immediateSound value (string or array of strings for each frame)
+
 </details>
 
 ## Fixes
