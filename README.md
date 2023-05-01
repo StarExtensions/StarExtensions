@@ -1,6 +1,6 @@
 ![StarExtensions](https://files.catbox.moe/qlqnge.png)
 
-### QoL enhancement mod written in C++ for Starbound.
+### QoL enhancement mod written in C++ for Starbound. Client-side, vanilla-compatible.
 
 ## Installation
 Go to the [latest release](https://github.com/StarExtensions/StarExtensions/releases/latest). Download either the win64 or win32 build, depending on which version of Starbound you use - and extract it to the folder of the same name in the Starbound directory.
