@@ -99,6 +99,19 @@ By the way, here's a list of every file extension the game does Special Thingsâ„
 
 Returns the raw data of an asset.
 
+#### `String, Maybe<LuaTable>` root.assetOrigin(`String` path, [`bool` getPatches])
+
+Returns the asset source path of an asset, or nil if the asset doesn't exist. If you specify getPatches as true then also returns the patches for the asset as an array, each element containing the source path and patch path in indexes 1 and 2 respectively.
+
+#### `LuaTable` root.assetSourcePaths([`bool` withMetadata])
+
+Without metadata: Returns an array with all the asset source paths.
+With metadata: Returns a table, key/value being source path/metadata.
+
+#### `LuaTable` root.assetSourceMetadata(`String` sourcePath)
+
+Returns the metadata of the specified asset source. This can be an empty table if there is no metadata, or nil if the source path is invalid.
+
 ---
 
 #### `Json` root.getConfiguration(`String` key)
@@ -749,6 +762,10 @@ Returns the player's selected action bar slot.
 #### `void` player.setSelectedActionBarSlot(`Variant<unsigned, EssentialItem>` slot)
   
 Sets the player's selected action bar slot.
+  
+#### `void` player.setDamageTeam(`DamageTeam` team)
+  
+Sets the player's damage team. This must be called every frame to override the current damage team that the server has given the player (normally controlled by /pvp)
 
 ---
 
