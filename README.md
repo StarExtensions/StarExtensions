@@ -28,7 +28,7 @@ StarExtensions adds **proximity voice chat**.
 
 Type **/voice** to open the menu, but don't forget to set the push-to-talk bind in **/binds**.
 
-![image](https://user-images.githubusercontent.com/80987908/232179267-13c3111a-1a6e-4cdc-ac3c-75380fa9ebde.png)
+![image](https://github.com/StarExtensions/StarExtensions/assets/80987908/1084c969-800e-41e3-996d-704876f3de6a)
 
 </details>
 
