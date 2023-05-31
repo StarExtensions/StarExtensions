@@ -328,9 +328,13 @@ Pushes a drawable to be drawn to the screen.
 
 # Chat
 
-The chat table contains bindings to run commands, get the user's input, set/get the font size and add local-only messages to the chat log.
+The chat table contains bindings to send chat, run commands, get the user's input, set/get the font size and add local-only messages to the chat log.
 
 ---
+
+#### `void` chat.send(`String` message, [`ChatSendMode` mode])
+
+Sends a chat message. **mode** defaults to **Broadcast**, rest is **Local** and **Party**.
 
 #### `LuaValue ...` chat.parseArguments(`String` args)
 
