@@ -18,6 +18,8 @@ By a truly unbelievable coincidence, I was recently out for a walk when I saw a 
 ![bag_crop](https://user-images.githubusercontent.com/80987908/185361129-9883fb92-9597-4ba4-b003-4be3dc4971a3.png)
 
 <sup>*disclaimer: this is a joke Tiyuri - please don't call Saul*</sup>
+<sup>**(this gag has been here since August 2022 and has now aged like milk)**</sup>
+
 ## Features
 Type **/guide** in-game with one of the following options: `chat`, `character`, `humanoid`, `misc`.
 
