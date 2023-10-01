@@ -259,7 +259,7 @@ To add support for an armor item, add these files to the armor item's directory 
 - `dynamic/<image>` - Moving layer
 - `dynamic/mask/<image>` - Mask to cut pixels out of the humanoid moving layer if necessary.
 
-<b>You must add `"dynamic" : true` to the parameters (not the config) of an item instance to enable dynamics.</b>
+<b>You must add `"dynamic" : true` to the parameters of an item instance to enable dynamics.</b>
 
 For <b>[vanilla-compatible generated clothing](https://silverfeelin.github.io/Starbound-NgOutfitGenerator/)</b>:
 - Add a table called `dynamicData` {} to the parameters. In it, you can insert the following generated directives from the outfit generator of your choice with these names:
