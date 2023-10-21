@@ -751,6 +751,12 @@ Returns the player's current emote and the seconds left in it.
   
 ---
 
+#### `void` player.teamMembers()
+
+Returns an array, each entry being a table with ``name``, ``uuid``, ``entity``, ``healthPercentage`` and ``energyPercentage``
+  
+---
+
 #### `unsigned` player.actionBarGroup()
 
 Returns the player's active action bar.
