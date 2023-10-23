@@ -777,6 +777,10 @@ Sets the player's selected action bar slot.
   
 Sets the player's damage team. This must be called every frame to override the current damage team that the server has given the player (normally controlled by /pvp)
 
+#### `void` player.say(`String` message)
+  
+Makes the player say the given message with only a speech bubble.
+
 ---
 
 # Songbook
