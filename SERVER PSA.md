@@ -43,4 +43,6 @@ This results in an endless cycle. When `Player::setNetStates` is called, it caus
 
 ### Footnote
 
-Open source your tragedy already, Finn!
+~~Open source your tragedy already, Finn!~~
+
+nvm looks like somebody did it for you lol
