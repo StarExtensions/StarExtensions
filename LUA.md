@@ -437,7 +437,7 @@ The input table contains bindings which provide the key down, held and up states
   
 Returns the mouse position.
   
-#### `void` input.setMousePosition()
+#### `void` input.setMousePosition(`Vec2U` mousePosition)
   
 Sets the mouse position.
   
